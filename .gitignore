@@ -1,0 +1,5 @@
+*.nds
+*.sav
+*.dsv
+*.dst
+__pycache__/
