@@ -149,7 +149,7 @@ def main():
 
     # ---- QoL data
     if 'qol' not in skip:
-        qol.apply(rom, out, story, story_changes)
+        qol.apply(rom, out)
 
     if 'text' not in skip:
         out.set_file(rom.filenames.idOf(SYS_MSG_NARC), narcpatch.patch_narc(sys_raw, sys_changes))
